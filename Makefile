@@ -3,4 +3,4 @@ run:
 doc:
 	asciidoc README.txt
 clean:
-	rm README.html *.pyc
+	rm -frv README.html *.pyc
